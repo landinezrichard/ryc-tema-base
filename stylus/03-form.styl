@@ -1,0 +1,46 @@
+//---------------------------------------------------------------------
+// FORMULARIO
+//---------------------------------------------------------------------
+
+input
+textarea
+	background $color_light_grey
+	border 2*$rem solid darken($color_light_grey, 15%)
+	padding 0.5em 1em
+	.transicion()
+	max-width 100%
+	color $color_text
+	font-size 1em
+	font-family $font_sans
+	border-radius 5*$rem
+	display inline-block
+	
+	&:focus
+		background white
+
+textarea
+	width 100%
+	overflow auto
+
+input[type="submit"]
+input[type="button"]
+	background $color_primary
+	color white
+	font-weight 700
+	border 2*$rem solid $color_primary
+	text-transform uppercase
+	padding 0.5em 1em
+	
+	&:disabled
+		background $color_light_grey
+		border-color darken($color_light_grey, 20%)
+		cursor not-allowed
+		
+		&:hover
+			background $color_light_grey
+			border-color darken($color_light_grey, 20%)
+	
+	&:hover
+		background white
+		text-decoration none
+		color $color_primary
