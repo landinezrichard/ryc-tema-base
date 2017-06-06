@@ -1,3 +1,15 @@
+/*
+Theme Name: RYC Tema base
+Theme URI: https://github.com/landinezrichard
+Author: Ricardo Landínez Ospino
+Author URI: https://twitter.com/landirichard
+Description: Tema base para proyectos.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: ryc
+*/
+
 html {
   font-size: 16px;
   height: 100%;
